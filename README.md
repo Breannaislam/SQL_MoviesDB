@@ -34,7 +34,7 @@ SQL Script is uploaded above.
 
 # Project Report
 
-## 1. Description of the Database Application
+# 1. Description of the Database Application
 **The Movie Database Management System is designed to store and manage data related to movies, actors, directors, and genres. The system allows users to:**
 - Store information about movies, including title, release year, and genre.
 - Manage actor and director details, such as names and birthdates.
@@ -44,7 +44,7 @@ movie.
 
 ---
 
-## 2. Design and Implementation
+# 2. Design and Implementation
 
 ### Relationships in the E-R Diagram
 **1. One-to-Many Relationship:**
@@ -180,4 +180,30 @@ INSERT INTO movie_genres VALUES ('101', 'G001');
 INSERT INTO movie_genres VALUES ('102', 'G002');
 INSERT INTO movie_genres VALUES ('103', 'G003');
 
+```
 
+# 3. Queries
+
+#### - Query 1: List all Movies with their Release Year and Director Name
+
+  <img width="407" alt="Screenshot 2025-04-09 at 8 02 55 PM" src="https://github.com/user-attachments/assets/1c2fdfbb-29ff-4d0c-b371-0826d4b6483a" />
+
+#### - Query 2: List all Movies with their Genres
+  
+<img width="453" alt="Screenshot 2025-04-09 at 8 06 12 PM" src="https://github.com/user-attachments/assets/1d571abf-0fb4-40d2-a1d1-6305d3800a9e" />
+
+#### - Query 3: Counting the Number of Movies Directed by Each Director
+
+<img width="364" alt="Screenshot 2025-04-09 at 8 10 53 PM" src="https://github.com/user-attachments/assets/867d54d0-e0f9-45bf-b6de-a0e068d1004d" />
+
+#### - Query 4: Finding the Earliest and Latest Movie Release Years
+
+<img width="382" alt="Screenshot 2025-04-09 at 8 12 34 PM" src="https://github.com/user-attachments/assets/ecae7ba0-4034-4f2c-b47c-fdbc7e7c5bce" />
+
+#### - Query 5: Finding the Director(s) Who Directed "Twilight"
+
+<img width="348" alt="Screenshot 2025-04-09 at 8 14 52 PM" src="https://github.com/user-attachments/assets/67b07c29-e81d-4f00-be1a-e47fb73d16af" />
+
+#### - Query 6: Counting Movies by Genre with a Minimum Count
+
+<img width="452" alt="Screenshot 2025-04-09 at 8 18 02 PM" src="https://github.com/user-attachments/assets/9bd7fb0e-c527-404d-8df4-c02cb0dee8d3" />
